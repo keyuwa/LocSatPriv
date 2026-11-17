@@ -1,0 +1,8 @@
+numpy
+matplotlib
+sgp4
+skyfield
+astropy
+shapely
+plotly
+pyproj
