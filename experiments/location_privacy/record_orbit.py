@@ -10,7 +10,7 @@ from pyproj import CRS, Transformer
 RECORD = Path(__file__).resolve().parents[1] / "control_state" / "RECORD"
 
 
-def record_schedule(counts):
+def record_schedule(counts, region_side=10):
     sys.path.insert(0, str(RECORD))
     from TLE_calculator import TLE_calculator
     from beam_model.Generic_rec_processed_beam_model import GenericRecordedProcessedModel
@@ -30,7 +30,7 @@ def record_schedule(counts):
     to_ecef = Transformer.from_crs(local_crs, "EPSG:4978", always_xy=True)
     local = np.vstack((points, receivers)) * 1000
     ground = np.array(to_ecef.transform(*local.T, np.zeros(len(local)))).T / 1000
-    groups = ((points + 20) // 10).astype(int)
+    groups = ((points + 20) // region_side).astype(int)
     members = [np.flatnonzero((groups == group).all(axis=1))
                for group in np.unique(groups, axis=0)]
     n = max(counts)
@@ -61,6 +61,17 @@ def record_schedule(counts):
                 flat = np.column_stack((theta * np.sin(phi), theta * np.cos(phi)))
                 for beam, shapes in enumerate(polygons):
                     covered = np.logical_or.reduce([shape.contains_points(flat) for shape in shapes]) & horizon
+                    if region_side == 1:
+                        accepted = np.flatnonzero(covered[:-2] & ~delivered[:, event])
+                        if covered[-2:].any():
+                            tokens[accepted, event] = 1 + (
+                                (elapsed * len(positions) + satellite) * len(beam_names) + beam
+                            )
+                        delivered[accepted, event] = True
+                        waits[accepted, event] = wait
+                        copies[accepted, event] = 1
+                        pending.difference_update(accepted)
+                        continue
                     for group in sorted(pending):
                         locations = members[group]
                         if not covered[locations].all():
@@ -82,7 +93,8 @@ def record_schedule(counts):
         "grid_center_lat_lon": [50.9, 6.95],
         "input_sha256": {p.name: hashlib.sha256(p.read_bytes()).hexdigest()
                          for p in (tle, beam_file)},
-        "scheduler": "first common single beam with up to 10 s waiting",
+        "scheduler": "first eligible single beam with up to 10 s waiting",
+        "region_side_km": region_side,
         "satellites": len(propagator.satList),
         "beams_per_satellite": len(beam_names),
     }

@@ -1,0 +1,111 @@
+{
+  "trials": 3,
+  "seconds": 60,
+  "seed": 20261117,
+  "epsilon_per_report_per_km": 0.2,
+  "noise_repeats_per_scenario": 64,
+  "outcomes": [
+    {
+      "record_area_km2": 709946.7721074803,
+      "contains_terminal": true,
+      "comparison": [
+        {
+          "reports": 1,
+          "record_only_km": 75.23740209418935,
+          "exact_km": 0.0,
+          "dp_km": 10.58641834871621,
+          "dp_within_1km": 0.046875
+        },
+        {
+          "reports": 4,
+          "record_only_km": 75.23740209418935,
+          "exact_km": 0.0,
+          "dp_km": 4.886765304096048,
+          "dp_within_1km": 0.078125
+        },
+        {
+          "reports": 16,
+          "record_only_km": 75.23740209418935,
+          "exact_km": 0.0,
+          "dp_km": 2.443775969608851,
+          "dp_within_1km": 0.109375
+        },
+        {
+          "reports": 64,
+          "record_only_km": 75.23740209418935,
+          "exact_km": 0.0,
+          "dp_km": 1.1498992759973032,
+          "dp_within_1km": 0.4375
+        }
+      ]
+    },
+    {
+      "record_area_km2": 336807.8142346124,
+      "contains_terminal": true,
+      "comparison": [
+        {
+          "reports": 1,
+          "record_only_km": 476.8975512242986,
+          "exact_km": 0.0,
+          "dp_km": 9.367534775114349,
+          "dp_within_1km": 0.0
+        },
+        {
+          "reports": 4,
+          "record_only_km": 476.8975512242986,
+          "exact_km": 0.0,
+          "dp_km": 4.2049942788753585,
+          "dp_within_1km": 0.078125
+        },
+        {
+          "reports": 16,
+          "record_only_km": 476.8975512242986,
+          "exact_km": 0.0,
+          "dp_km": 2.2613509633719753,
+          "dp_within_1km": 0.171875
+        },
+        {
+          "reports": 64,
+          "record_only_km": 476.8975512242986,
+          "exact_km": 0.0,
+          "dp_km": 1.1451130380435228,
+          "dp_within_1km": 0.484375
+        }
+      ]
+    },
+    {
+      "record_area_km2": 442760.98626404785,
+      "contains_terminal": true,
+      "comparison": [
+        {
+          "reports": 1,
+          "record_only_km": 118.34896061468174,
+          "exact_km": 0.0,
+          "dp_km": 9.817408544879614,
+          "dp_within_1km": 0.0
+        },
+        {
+          "reports": 4,
+          "record_only_km": 118.34896061468174,
+          "exact_km": 0.0,
+          "dp_km": 4.812173219564187,
+          "dp_within_1km": 0.0
+        },
+        {
+          "reports": 16,
+          "record_only_km": 118.34896061468174,
+          "exact_km": 0.0,
+          "dp_km": 2.4726261927542206,
+          "dp_within_1km": 0.15625
+        },
+        {
+          "reports": 64,
+          "record_only_km": 118.34896061468174,
+          "exact_km": 0.0,
+          "dp_km": 1.221995097399439,
+          "dp_within_1km": 0.40625
+        }
+      ]
+    }
+  ]
+}
