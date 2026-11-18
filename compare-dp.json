@@ -1,0 +1,93 @@
+{
+  "seed": 20261117,
+  "trials": 500,
+  "region_side_km": 10,
+  "grid_step_km": 0.5,
+  "epsilon_per_report_per_km": 0.2,
+  "results": [
+    {
+      "mode": "region_only",
+      "reports": 1,
+      "mean_error_km": 3.7229269084405616,
+      "within_1km": 0.028,
+      "within_5km": 0.782
+    },
+    {
+      "mode": "exact_report",
+      "reports": 1,
+      "mean_error_km": 0.0,
+      "within_1km": 1.0,
+      "within_5km": 1.0
+    },
+    {
+      "mode": "dp_report",
+      "reports": 1,
+      "mean_error_km": 3.433229515011062,
+      "within_1km": 0.06,
+      "within_5km": 0.836
+    },
+    {
+      "mode": "region_only",
+      "reports": 4,
+      "mean_error_km": 3.7229269084405616,
+      "within_1km": 0.028,
+      "within_5km": 0.782
+    },
+    {
+      "mode": "exact_report",
+      "reports": 4,
+      "mean_error_km": 0.0,
+      "within_1km": 1.0,
+      "within_5km": 1.0
+    },
+    {
+      "mode": "dp_report",
+      "reports": 4,
+      "mean_error_km": 2.8478273046780807,
+      "within_1km": 0.076,
+      "within_5km": 0.93
+    },
+    {
+      "mode": "region_only",
+      "reports": 16,
+      "mean_error_km": 3.7229269084405616,
+      "within_1km": 0.028,
+      "within_5km": 0.782
+    },
+    {
+      "mode": "exact_report",
+      "reports": 16,
+      "mean_error_km": 0.0,
+      "within_1km": 1.0,
+      "within_5km": 1.0
+    },
+    {
+      "mode": "dp_report",
+      "reports": 16,
+      "mean_error_km": 1.8696948099055117,
+      "within_1km": 0.216,
+      "within_5km": 0.992
+    },
+    {
+      "mode": "region_only",
+      "reports": 64,
+      "mean_error_km": 3.7229269084405616,
+      "within_1km": 0.028,
+      "within_5km": 0.782
+    },
+    {
+      "mode": "exact_report",
+      "reports": 64,
+      "mean_error_km": 0.0,
+      "within_1km": 1.0,
+      "within_5km": 1.0
+    },
+    {
+      "mode": "dp_report",
+      "reports": 64,
+      "mean_error_km": 1.0359499238987304,
+      "within_1km": 0.522,
+      "within_5km": 1.0
+    }
+  ]
+}

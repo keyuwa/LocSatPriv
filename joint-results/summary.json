@@ -1,0 +1,338 @@
+[
+  {
+    "mode": "region_only",
+    "reports": 1,
+    "mean_error_km": {
+      "mean": 11.193931321638628,
+      "sd": 0.7183495158795986
+    },
+    "success_1km": {
+      "mean": 0.005,
+      "sd": 0.005270462766947299
+    },
+    "mean_credible95_km2": {
+      "mean": 810.1049999999999,
+      "sd": 33.66599149488002
+    },
+    "delivery_rate": {
+      "mean": 1.0,
+      "sd": 0.0
+    },
+    "mean_wait_s": {
+      "mean": 0.30599999999999994,
+      "sd": 0.14758801517136214
+    },
+    "extra_transmissions_per_delivery": {
+      "mean": 0.0,
+      "sd": 0.0
+    }
+  },
+  {
+    "mode": "region_only",
+    "reports": 4,
+    "mean_error_km": {
+      "mean": 4.80473238696356,
+      "sd": 0.2919884412262723
+    },
+    "success_1km": {
+      "mean": 0.026000000000000002,
+      "sd": 0.012649110640673518
+    },
+    "mean_credible95_km2": {
+      "mean": 133.19,
+      "sd": 5.499434314343412
+    },
+    "delivery_rate": {
+      "mean": 1.0,
+      "sd": 0.0
+    },
+    "mean_wait_s": {
+      "mean": 0.37825,
+      "sd": 0.04687527777695474
+    },
+    "extra_transmissions_per_delivery": {
+      "mean": 0.015249999999999986,
+      "sd": 0.00519748870983755
+    }
+  },
+  {
+    "mode": "region_only",
+    "reports": 16,
+    "mean_error_km": {
+      "mean": 3.8991428419481453,
+      "sd": 0.18005200940000113
+    },
+    "success_1km": {
+      "mean": 0.032,
+      "sd": 0.010327955589886445
+    },
+    "mean_credible95_km2": {
+      "mean": 95.0,
+      "sd": 0.0
+    },
+    "delivery_rate": {
+      "mean": 1.0,
+      "sd": 0.0
+    },
+    "mean_wait_s": {
+      "mean": 0.407125,
+      "sd": 0.037309935003963755
+    },
+    "extra_transmissions_per_delivery": {
+      "mean": 0.01687500000000002,
+      "sd": 0.0030760048042152567
+    }
+  },
+  {
+    "mode": "region_only",
+    "reports": 64,
+    "mean_error_km": {
+      "mean": 3.8991428419481453,
+      "sd": 0.18005200940000113
+    },
+    "success_1km": {
+      "mean": 0.032,
+      "sd": 0.010327955589886445
+    },
+    "mean_credible95_km2": {
+      "mean": 95.0,
+      "sd": 0.0
+    },
+    "delivery_rate": {
+      "mean": 1.0,
+      "sd": 0.0
+    },
+    "mean_wait_s": {
+      "mean": 0.39178124999999997,
+      "sd": 0.03782728992205525
+    },
+    "extra_transmissions_per_delivery": {
+      "mean": 0.012656250000000013,
+      "sd": 0.002307003603161451
+    }
+  },
+  {
+    "mode": "region_exact",
+    "reports": 1,
+    "mean_error_km": {
+      "mean": 0.0,
+      "sd": 0.0
+    },
+    "success_1km": {
+      "mean": 1.0,
+      "sd": 0.0
+    },
+    "mean_credible95_km2": {
+      "mean": 1.0,
+      "sd": 0.0
+    },
+    "delivery_rate": {
+      "mean": 1.0,
+      "sd": 0.0
+    },
+    "mean_wait_s": {
+      "mean": 0.30599999999999994,
+      "sd": 0.14758801517136214
+    },
+    "extra_transmissions_per_delivery": {
+      "mean": 0.0,
+      "sd": 0.0
+    }
+  },
+  {
+    "mode": "region_exact",
+    "reports": 4,
+    "mean_error_km": {
+      "mean": 0.0,
+      "sd": 0.0
+    },
+    "success_1km": {
+      "mean": 1.0,
+      "sd": 0.0
+    },
+    "mean_credible95_km2": {
+      "mean": 1.0,
+      "sd": 0.0
+    },
+    "delivery_rate": {
+      "mean": 1.0,
+      "sd": 0.0
+    },
+    "mean_wait_s": {
+      "mean": 0.37825,
+      "sd": 0.04687527777695474
+    },
+    "extra_transmissions_per_delivery": {
+      "mean": 0.015249999999999986,
+      "sd": 0.00519748870983755
+    }
+  },
+  {
+    "mode": "region_exact",
+    "reports": 16,
+    "mean_error_km": {
+      "mean": 0.0,
+      "sd": 0.0
+    },
+    "success_1km": {
+      "mean": 1.0,
+      "sd": 0.0
+    },
+    "mean_credible95_km2": {
+      "mean": 1.0,
+      "sd": 0.0
+    },
+    "delivery_rate": {
+      "mean": 1.0,
+      "sd": 0.0
+    },
+    "mean_wait_s": {
+      "mean": 0.407125,
+      "sd": 0.037309935003963755
+    },
+    "extra_transmissions_per_delivery": {
+      "mean": 0.01687500000000002,
+      "sd": 0.0030760048042152567
+    }
+  },
+  {
+    "mode": "region_exact",
+    "reports": 64,
+    "mean_error_km": {
+      "mean": 0.0,
+      "sd": 0.0
+    },
+    "success_1km": {
+      "mean": 1.0,
+      "sd": 0.0
+    },
+    "mean_credible95_km2": {
+      "mean": 1.0,
+      "sd": 0.0
+    },
+    "delivery_rate": {
+      "mean": 1.0,
+      "sd": 0.0
+    },
+    "mean_wait_s": {
+      "mean": 0.39178124999999997,
+      "sd": 0.03782728992205525
+    },
+    "extra_transmissions_per_delivery": {
+      "mean": 0.012656250000000013,
+      "sd": 0.002307003603161451
+    }
+  },
+  {
+    "mode": "region_dp",
+    "reports": 1,
+    "mean_error_km": {
+      "mean": 6.494622212758621,
+      "sd": 0.5674306502801862
+    },
+    "success_1km": {
+      "mean": 0.018,
+      "sd": 0.010327955589886445
+    },
+    "mean_credible95_km2": {
+      "mean": 452.23099999999994,
+      "sd": 13.591151901145107
+    },
+    "delivery_rate": {
+      "mean": 1.0,
+      "sd": 0.0
+    },
+    "mean_wait_s": {
+      "mean": 0.30599999999999994,
+      "sd": 0.14758801517136214
+    },
+    "extra_transmissions_per_delivery": {
+      "mean": 0.0,
+      "sd": 0.0
+    }
+  },
+  {
+    "mode": "region_dp",
+    "reports": 4,
+    "mean_error_km": {
+      "mean": 3.0779547985230407,
+      "sd": 0.10483101559263311
+    },
+    "success_1km": {
+      "mean": 0.06500000000000002,
+      "sd": 0.01715938356831167
+    },
+    "mean_credible95_km2": {
+      "mean": 77.90099999999998,
+      "sd": 2.8588787623433367
+    },
+    "delivery_rate": {
+      "mean": 1.0,
+      "sd": 0.0
+    },
+    "mean_wait_s": {
+      "mean": 0.37825,
+      "sd": 0.04687527777695474
+    },
+    "extra_transmissions_per_delivery": {
+      "mean": 0.015249999999999986,
+      "sd": 0.00519748870983755
+    }
+  },
+  {
+    "mode": "region_dp",
+    "reports": 16,
+    "mean_error_km": {
+      "mean": 1.88837378090884,
+      "sd": 0.09466582652974805
+    },
+    "success_1km": {
+      "mean": 0.221,
+      "sd": 0.030349812373573433
+    },
+    "mean_credible95_km2": {
+      "mean": 33.702000000000005,
+      "sd": 1.0600922391733454
+    },
+    "delivery_rate": {
+      "mean": 1.0,
+      "sd": 0.0
+    },
+    "mean_wait_s": {
+      "mean": 0.407125,
+      "sd": 0.037309935003963755
+    },
+    "extra_transmissions_per_delivery": {
+      "mean": 0.01687500000000002,
+      "sd": 0.0030760048042152567
+    }
+  },
+  {
+    "mode": "region_dp",
+    "reports": 64,
+    "mean_error_km": {
+      "mean": 1.0177077135287944,
+      "sd": 0.04798526400923951
+    },
+    "success_1km": {
+      "mean": 0.554,
+      "sd": 0.04501851470969102
+    },
+    "mean_credible95_km2": {
+      "mean": 11.817,
+      "sd": 0.5480277770737942
+    },
+    "delivery_rate": {
+      "mean": 1.0,
+      "sd": 0.0
+    },
+    "mean_wait_s": {
+      "mean": 0.39178124999999997,
+      "sd": 0.03782728992205525
+    },
+    "extra_transmissions_per_delivery": {
+      "mean": 0.012656250000000013,
+      "sd": 0.002307003603161451
+    }
+  }
+]

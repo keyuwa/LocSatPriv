@@ -1,0 +1,364 @@
+{
+  "upstream_commit": "b661f362375a01ff6778212e74ecb11e32b8e746",
+  "baseline_kind": "recomputed statistics from upstream CSVs",
+  "baseline": [
+    {
+      "seconds": 60,
+      "readme_paper_km2": 307000,
+      "duration_and_type": {
+        "runs": 108,
+        "median_km2": 307353.51884848054
+      },
+      "public_model": {
+        "runs": 86,
+        "median_km2": 467882.5597543993
+      },
+      "public_over_paper_reference": 1.5240474259100953
+    },
+    {
+      "seconds": 180,
+      "readme_paper_km2": 122000,
+      "duration_and_type": {
+        "runs": 110,
+        "median_km2": 122449.47255279441
+      },
+      "public_model": {
+        "runs": 70,
+        "median_km2": 164546.78163516917
+      },
+      "public_over_paper_reference": 1.3487441117636818
+    },
+    {
+      "seconds": 600,
+      "readme_paper_km2": 25300,
+      "duration_and_type": {
+        "runs": 110,
+        "median_km2": 25302.350134404034
+      },
+      "public_model": {
+        "runs": 60,
+        "median_km2": 44043.8409929861
+      },
+      "public_over_paper_reference": 1.7408632803551818
+    },
+    {
+      "seconds": 1800,
+      "readme_paper_km2": 3480,
+      "duration_and_type": {
+        "runs": 104,
+        "median_km2": 3476.3746421064907
+      },
+      "public_model": {
+        "runs": 50,
+        "median_km2": 8430.830785551203
+      },
+      "public_over_paper_reference": 2.422652524583679
+    },
+    {
+      "seconds": 3600,
+      "readme_paper_km2": 700,
+      "duration_and_type": {
+        "runs": 142,
+        "median_km2": 700.3012287091791
+      },
+      "public_model": {
+        "runs": 49,
+        "median_km2": 847.5019944701266
+      },
+      "public_over_paper_reference": 1.2107171349573238
+    },
+    {
+      "seconds": 7200,
+      "readme_paper_km2": 154,
+      "duration_and_type": {
+        "runs": 108,
+        "median_km2": 153.97401071731102
+      },
+      "public_model": {
+        "runs": 51,
+        "median_km2": 313.67685366890845
+      },
+      "public_over_paper_reference": 2.036862686161743
+    },
+    {
+      "seconds": 14400,
+      "readme_paper_km2": 92,
+      "duration_and_type": {
+        "runs": 106,
+        "median_km2": 91.96465490141348
+      },
+      "public_model": {
+        "runs": 50,
+        "median_km2": 179.13943002829387
+      },
+      "public_over_paper_reference": 1.9471677176988464
+    },
+    {
+      "seconds": 28800,
+      "readme_paper_km2": 60.8,
+      "duration_and_type": {
+        "runs": 106,
+        "median_km2": 60.76992676562296
+      },
+      "public_model": {
+        "runs": 44,
+        "median_km2": 52.91677139392689
+      },
+      "public_over_paper_reference": 0.8703416347685344
+    },
+    {
+      "seconds": 57600,
+      "readme_paper_km2": 48.5,
+      "duration_and_type": {
+        "runs": 109,
+        "median_km2": 48.49007226398604
+      },
+      "public_model": {
+        "runs": 40,
+        "median_km2": 35.984575110346434
+      },
+      "public_over_paper_reference": 0.7419500022751842
+    }
+  ],
+  "defense_kind": "fictional footprints, offline synthetic transcript equivalence",
+  "defense": [
+    {
+      "region_side_km": 10,
+      "deadline_s": 3,
+      "messages_per_location": 12,
+      "synthetic_locations": 3600,
+      "point": {
+        "median_candidate_km2": 27.0,
+        "min_candidate_km2": 1,
+        "mean_centroid_error_km": 2.6990833700756,
+        "delivery_rate": 0.9560185185185185,
+        "mean_wait_s_delivered": 0.14576271186440679,
+        "transmissions_per_user": 11.472222222222221,
+        "extra_copies_per_delivered_message": 0.0
+      },
+      "region": {
+        "median_candidate_km2": 100.0,
+        "min_candidate_km2": 100,
+        "mean_centroid_error_km": 3.8119474917465244,
+        "delivery_rate": 0.8634259259259259,
+        "mean_wait_s_delivered": 0.2225201072386059,
+        "transmissions_per_user": 10.36111111111111,
+        "extra_copies_per_delivered_message": 0.0
+      },
+      "region_multi": {
+        "median_candidate_km2": 100.0,
+        "min_candidate_km2": 100,
+        "mean_centroid_error_km": 3.8119474917465244,
+        "delivery_rate": 0.8634259259259259,
+        "mean_wait_s_delivered": 0.21447721179624665,
+        "transmissions_per_user": 10.444444444444445,
+        "extra_copies_per_delivered_message": 0.00804289544235925
+      }
+    },
+    {
+      "region_side_km": 10,
+      "deadline_s": 10,
+      "messages_per_location": 12,
+      "synthetic_locations": 3600,
+      "point": {
+        "median_candidate_km2": 27.0,
+        "min_candidate_km2": 1,
+        "mean_centroid_error_km": 2.6866653109410055,
+        "delivery_rate": 0.9996990740740741,
+        "mean_wait_s_delivered": 0.39558200384374925,
+        "transmissions_per_user": 11.99638888888889,
+        "extra_copies_per_delivered_message": 0.0
+      },
+      "region": {
+        "median_candidate_km2": 100.0,
+        "min_candidate_km2": 100,
+        "mean_centroid_error_km": 3.8119474917465244,
+        "delivery_rate": 0.9837962962962963,
+        "mean_wait_s_delivered": 0.9223529411764706,
+        "transmissions_per_user": 11.805555555555555,
+        "extra_copies_per_delivered_message": 0.0
+      },
+      "region_multi": {
+        "median_candidate_km2": 100.0,
+        "min_candidate_km2": 100,
+        "mean_centroid_error_km": 3.8119474917465244,
+        "delivery_rate": 0.9837962962962963,
+        "mean_wait_s_delivered": 0.9152941176470588,
+        "transmissions_per_user": 11.88888888888889,
+        "extra_copies_per_delivered_message": 0.007058823529411765
+      }
+    },
+    {
+      "region_side_km": 20,
+      "deadline_s": 3,
+      "messages_per_location": 12,
+      "synthetic_locations": 3600,
+      "point": {
+        "median_candidate_km2": 27.0,
+        "min_candidate_km2": 1,
+        "mean_centroid_error_km": 2.6990833700756,
+        "delivery_rate": 0.9560185185185185,
+        "mean_wait_s_delivered": 0.14576271186440679,
+        "transmissions_per_user": 11.472222222222221,
+        "extra_copies_per_delivered_message": 0.0
+      },
+      "region": {
+        "median_candidate_km2": 400.0,
+        "min_candidate_km2": 400,
+        "mean_centroid_error_km": 7.6447784657027595,
+        "delivery_rate": 0.7407407407407407,
+        "mean_wait_s_delivered": 0.525,
+        "transmissions_per_user": 8.88888888888889,
+        "extra_copies_per_delivered_message": 0.0
+      },
+      "region_multi": {
+        "median_candidate_km2": 400.0,
+        "min_candidate_km2": 400,
+        "mean_centroid_error_km": 7.6447784657027595,
+        "delivery_rate": 0.7592592592592593,
+        "mean_wait_s_delivered": 0.2926829268292683,
+        "transmissions_per_user": 10.666666666666666,
+        "extra_copies_per_delivered_message": 0.17073170731707318
+      }
+    },
+    {
+      "region_side_km": 20,
+      "deadline_s": 10,
+      "messages_per_location": 12,
+      "synthetic_locations": 3600,
+      "point": {
+        "median_candidate_km2": 27.0,
+        "min_candidate_km2": 1,
+        "mean_centroid_error_km": 2.6866653109410055,
+        "delivery_rate": 0.9996990740740741,
+        "mean_wait_s_delivered": 0.39558200384374925,
+        "transmissions_per_user": 11.99638888888889,
+        "extra_copies_per_delivered_message": 0.0
+      },
+      "region": {
+        "median_candidate_km2": 400.0,
+        "min_candidate_km2": 400,
+        "mean_centroid_error_km": 7.6447784657027595,
+        "delivery_rate": 0.9351851851851852,
+        "mean_wait_s_delivered": 1.7623762376237624,
+        "transmissions_per_user": 11.222222222222221,
+        "extra_copies_per_delivered_message": 0.0
+      },
+      "region_multi": {
+        "median_candidate_km2": 400.0,
+        "min_candidate_km2": 400,
+        "mean_centroid_error_km": 7.6447784657027595,
+        "delivery_rate": 0.9351851851851852,
+        "mean_wait_s_delivered": 1.504950495049505,
+        "transmissions_per_user": 12.777777777777779,
+        "extra_copies_per_delivered_message": 0.13861386138613863
+      }
+    },
+    {
+      "region_side_km": 30,
+      "deadline_s": 3,
+      "messages_per_location": 12,
+      "synthetic_locations": 3600,
+      "point": {
+        "median_candidate_km2": 27.0,
+        "min_candidate_km2": 1,
+        "mean_centroid_error_km": 2.6990833700756,
+        "delivery_rate": 0.9560185185185185,
+        "mean_wait_s_delivered": 0.14576271186440679,
+        "transmissions_per_user": 11.472222222222221,
+        "extra_copies_per_delivered_message": 0.0
+      },
+      "region": {
+        "median_candidate_km2": 900.0,
+        "min_candidate_km2": 900,
+        "mean_centroid_error_km": 11.47311325860675,
+        "delivery_rate": 0.4583333333333333,
+        "mean_wait_s_delivered": 0.8181818181818182,
+        "transmissions_per_user": 5.5,
+        "extra_copies_per_delivered_message": 0.0
+      },
+      "region_multi": {
+        "median_candidate_km2": 900.0,
+        "min_candidate_km2": 900,
+        "mean_centroid_error_km": 11.47311325860675,
+        "delivery_rate": 0.5,
+        "mean_wait_s_delivered": 0.4166666666666667,
+        "transmissions_per_user": 8.0,
+        "extra_copies_per_delivered_message": 0.3333333333333333
+      }
+    },
+    {
+      "region_side_km": 30,
+      "deadline_s": 10,
+      "messages_per_location": 12,
+      "synthetic_locations": 3600,
+      "point": {
+        "median_candidate_km2": 27.0,
+        "min_candidate_km2": 1,
+        "mean_centroid_error_km": 2.6866653109410055,
+        "delivery_rate": 0.9996990740740741,
+        "mean_wait_s_delivered": 0.39558200384374925,
+        "transmissions_per_user": 11.99638888888889,
+        "extra_copies_per_delivered_message": 0.0
+      },
+      "region": {
+        "median_candidate_km2": 900.0,
+        "min_candidate_km2": 900,
+        "mean_centroid_error_km": 11.47311325860675,
+        "delivery_rate": 0.8125,
+        "mean_wait_s_delivered": 3.3076923076923075,
+        "transmissions_per_user": 9.75,
+        "extra_copies_per_delivered_message": 0.0
+      },
+      "region_multi": {
+        "median_candidate_km2": 900.0,
+        "min_candidate_km2": 900,
+        "mean_centroid_error_km": 11.47311325860675,
+        "delivery_rate": 0.8541666666666666,
+        "mean_wait_s_delivered": 3.097560975609756,
+        "transmissions_per_user": 14.25,
+        "extra_copies_per_delivered_message": 0.3902439024390244
+      }
+    }
+  ],
+  "comparisons_at_98pct_delivery": [
+    {
+      "region_side_km": 10,
+      "deadline_s": 3,
+      "eligible_policies": []
+    },
+    {
+      "region_side_km": 10,
+      "deadline_s": 10,
+      "eligible_policies": [
+        "point",
+        "region",
+        "region_multi"
+      ]
+    },
+    {
+      "region_side_km": 20,
+      "deadline_s": 3,
+      "eligible_policies": []
+    },
+    {
+      "region_side_km": 20,
+      "deadline_s": 10,
+      "eligible_policies": [
+        "point"
+      ]
+    },
+    {
+      "region_side_km": 30,
+      "deadline_s": 3,
+      "eligible_policies": []
+    },
+    {
+      "region_side_km": 30,
+      "deadline_s": 10,
+      "eligible_policies": [
+        "point"
+      ]
+    }
+  ]
+}

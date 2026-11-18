@@ -1,0 +1,183 @@
+{
+  "seed": 20261117,
+  "trials": 500,
+  "attacker": "sample mean",
+  "results": [
+    {
+      "mode": "exact",
+      "reports": 1,
+      "epsilon_per_km": null,
+      "composed_epsilon_per_km": null,
+      "mean_error_km": 0.0,
+      "ci95_low": 0.0,
+      "ci95_high": 0.0,
+      "success_within_5km": 1.0,
+      "mean_report_error_km": 0.0
+    },
+    {
+      "mode": "exact",
+      "reports": 4,
+      "epsilon_per_km": null,
+      "composed_epsilon_per_km": null,
+      "mean_error_km": 0.0,
+      "ci95_low": 0.0,
+      "ci95_high": 0.0,
+      "success_within_5km": 1.0,
+      "mean_report_error_km": 0.0
+    },
+    {
+      "mode": "exact",
+      "reports": 16,
+      "epsilon_per_km": null,
+      "composed_epsilon_per_km": null,
+      "mean_error_km": 7.410922868110523e-15,
+      "ci95_low": 6.975581857560742e-15,
+      "ci95_high": 7.856166075660164e-15,
+      "success_within_5km": 1.0,
+      "mean_report_error_km": 0.0
+    },
+    {
+      "mode": "exact",
+      "reports": 64,
+      "epsilon_per_km": null,
+      "composed_epsilon_per_km": null,
+      "mean_error_km": 2.9437176349543165e-14,
+      "ci95_low": 2.800641928743688e-14,
+      "ci95_high": 3.087021281113815e-14,
+      "success_within_5km": 1.0,
+      "mean_report_error_km": 0.0
+    },
+    {
+      "mode": "grid_20km",
+      "reports": 1,
+      "epsilon_per_km": null,
+      "composed_epsilon_per_km": null,
+      "mean_error_km": 7.728348643771513,
+      "ci95_low": 7.463500765534951,
+      "ci95_high": 7.986850696864634,
+      "success_within_5km": 0.204,
+      "mean_report_error_km": 7.728348643771513
+    },
+    {
+      "mode": "grid_20km",
+      "reports": 4,
+      "epsilon_per_km": null,
+      "composed_epsilon_per_km": null,
+      "mean_error_km": 7.728348643771513,
+      "ci95_low": 7.4707253484320635,
+      "ci95_high": 7.97815240693917,
+      "success_within_5km": 0.204,
+      "mean_report_error_km": 7.728348643771513
+    },
+    {
+      "mode": "grid_20km",
+      "reports": 16,
+      "epsilon_per_km": null,
+      "composed_epsilon_per_km": null,
+      "mean_error_km": 7.728348643771513,
+      "ci95_low": 7.455910031488187,
+      "ci95_high": 7.9895460504707385,
+      "success_within_5km": 0.204,
+      "mean_report_error_km": 7.728348643771513
+    },
+    {
+      "mode": "grid_20km",
+      "reports": 64,
+      "epsilon_per_km": null,
+      "composed_epsilon_per_km": null,
+      "mean_error_km": 7.728348643771513,
+      "ci95_low": 7.466308844574872,
+      "ci95_high": 7.988559207485495,
+      "success_within_5km": 0.204,
+      "mean_report_error_km": 7.728348643771513
+    },
+    {
+      "mode": "fixed_per_report",
+      "reports": 1,
+      "epsilon_per_km": 0.2,
+      "composed_epsilon_per_km": 0.2,
+      "mean_error_km": 9.507091428678672,
+      "ci95_low": 8.975380341056352,
+      "ci95_high": 10.10373315752836,
+      "success_within_5km": 0.276,
+      "mean_report_error_km": 9.507091428678672
+    },
+    {
+      "mode": "fixed_per_report",
+      "reports": 4,
+      "epsilon_per_km": 0.2,
+      "composed_epsilon_per_km": 0.8,
+      "mean_error_km": 5.3553735938751945,
+      "ci95_low": 5.104022214446659,
+      "ci95_high": 5.62709971547299,
+      "success_within_5km": 0.508,
+      "mean_report_error_km": 9.951704356129568
+    },
+    {
+      "mode": "fixed_per_report",
+      "reports": 16,
+      "epsilon_per_km": 0.2,
+      "composed_epsilon_per_km": 3.2,
+      "mean_error_km": 2.7060699434346462,
+      "ci95_low": 2.5818566506165235,
+      "ci95_high": 2.8390857940236347,
+      "success_within_5km": 0.914,
+      "mean_report_error_km": 10.042124222364533
+    },
+    {
+      "mode": "fixed_per_report",
+      "reports": 64,
+      "epsilon_per_km": 0.2,
+      "composed_epsilon_per_km": 12.8,
+      "mean_error_km": 1.3252558212257333,
+      "ci95_low": 1.257290518773015,
+      "ci95_high": 1.3962142676524325,
+      "success_within_5km": 1.0,
+      "mean_report_error_km": 10.026170316993321
+    },
+    {
+      "mode": "fixed_total",
+      "reports": 1,
+      "epsilon_per_km": 0.2,
+      "composed_epsilon_per_km": 0.2,
+      "mean_error_km": 10.018828970663174,
+      "ci95_low": 9.413989580645824,
+      "ci95_high": 10.644677667999279,
+      "success_within_5km": 0.28,
+      "mean_report_error_km": 10.018828970663174
+    },
+    {
+      "mode": "fixed_total",
+      "reports": 4,
+      "epsilon_per_km": 0.05,
+      "composed_epsilon_per_km": 0.2,
+      "mean_error_km": 21.91120387851541,
+      "ci95_low": 20.831480650103,
+      "ci95_high": 22.98639096572831,
+      "success_within_5km": 0.042,
+      "mean_report_error_km": 40.284398838534926
+    },
+    {
+      "mode": "fixed_total",
+      "reports": 16,
+      "epsilon_per_km": 0.0125,
+      "composed_epsilon_per_km": 0.2,
+      "mean_error_km": 42.67873547849835,
+      "ci95_low": 40.91030155794064,
+      "ci95_high": 44.63094543052723,
+      "success_within_5km": 0.01,
+      "mean_report_error_km": 160.35749604394505
+    },
+    {
+      "mode": "fixed_total",
+      "reports": 64,
+      "epsilon_per_km": 0.003125,
+      "composed_epsilon_per_km": 0.2,
+      "mean_error_km": 89.41019255455566,
+      "ci95_low": 85.28161330036792,
+      "ci95_high": 93.45867895887478,
+      "success_within_5km": 0.006,
+      "mean_report_error_km": 645.052424447699
+    }
+  ]
+}
