@@ -1,0 +1,35 @@
+diff --git a/beam_model/Generic_rec_processed_beam_model.py b/beam_model/Generic_rec_processed_beam_model.py
+index d4823c2..67a9a38 100644
+--- a/beam_model/Generic_rec_processed_beam_model.py
++++ b/beam_model/Generic_rec_processed_beam_model.py
+@@ -222,7 +222,7 @@ class GenericRecordedProcessedModel:
+                 c = ee_b ** 2 * sat_pos_itrs[0, None] ** 2 + ee_b ** 2 * sat_pos_itrs[1, None] ** 2 + \
+                     ee_a ** 2 * sat_pos_itrs[2, None] ** 2 - ee_a ** 2 * ee_b ** 2
+                 D = b ** 2 - 4 * a * c
+-                D = np.where(D >= 0, D, np.NaN)
++                D = np.where(D >= 0, D, np.nan)
+ 
+                 x_1 = (-b + np.sqrt(D)) / (2 * a)
+                 x_2 = (-b - np.sqrt(D)) / (2 * a)
+diff --git a/simulations_attackerTypes_fibo.py b/simulations_attackerTypes_fibo.py
+index ff7efcc..b26b1b9 100644
+--- a/simulations_attackerTypes_fibo.py
++++ b/simulations_attackerTypes_fibo.py
+@@ -135,7 +135,7 @@ def __analyze_attackers_generic(distances: [int], sniffing_durations: [int], ite
+                                 do_snf_intervals: bool = False, inter_int_time: [int] = None,
+                                 int_rep: [int] = None, area_output_folder: str = None, weak_events: bool = False,
+                                 noisy_prediction: bool = False, use_point_estimator: bool = False,
+-                                iteration_acceptance_border: int = 1) -> dict:
++                                iteration_acceptance_border: int = 1, on_result=None) -> dict:
+     # a generic method that is able to execute all setups variations: varying distance, cont_time, interval_time
+     # ensure that either the distances or the sniffing_durations is no vector
+     if len(distances) > 1 and len(sniffing_durations) > 1:
+@@ -267,6 +267,8 @@ def __analyze_attackers_generic(distances: [int], sniffing_durations: [int], ite
+                     # evaluate the attack and write the result
+                     valid_s, area_s, dist_s = eval.evaluate_polygon(single_poly, eve_used_lolah, victim_loc)
+                     valid_c, area_c, dist_c = eval.evaluate_polygon(combined_poly, eve_used_lolah, victim_loc)
++                    if on_result is not None:
++                        on_result(combined_poly, eve_used_itrs, victim_loc, valid_c, area_c)
+                     # write the output-files
+                     if area_output_folder is not None:
+                         if area_output_folder[-1] != os.sep:

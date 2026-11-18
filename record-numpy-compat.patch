@@ -1,0 +1,40 @@
+diff --git a/beam_model/beamModel_coordinate_transformations.py b/beam_model/beamModel_coordinate_transformations.py
+index 7033793..9e28ffc 100644
+--- a/beam_model/beamModel_coordinate_transformations.py
++++ b/beam_model/beamModel_coordinate_transformations.py
+@@ -86,7 +86,7 @@ def __local_2_intermediate(local_beam_pos: [(float, float, float)], sat_pos_itrs
+     # a,b,c = np.shape(beam_points2)
+     local_beam_pos = np.array(local_beam_pos)
+     original_shape = np.shape(local_beam_pos)
+-    local_beam_pos = np.reshape(local_beam_pos, (np.product(original_shape[:-1]), 3))  # reduce to [x,3] dimensions
++    local_beam_pos = np.reshape(local_beam_pos, (np.prod(original_shape[:-1]), 3))  # reduce to [x,3] dimensions
+     for element_nr in range(len(local_beam_pos)):
+         temp_point = local_beam_pos[element_nr, :]
+         temp_point = np.dot(rot_z, temp_point)
+@@ -141,7 +141,7 @@ def __intermediate_2_local(int_beam_pos: [(float, float, float)], sat_pos_itrs:
+     # a,b,c = np.shape(beam_points2)
+     int_beam_pos = np.array(int_beam_pos)
+     original_shape = np.shape(int_beam_pos)
+-    int_beam_pos = np.reshape(int_beam_pos, (int(np.product(original_shape[:-1])), 3))  # reduce to [x,3] dimensions
++    int_beam_pos = np.reshape(int_beam_pos, (int(np.prod(original_shape[:-1])), 3))  # reduce to [x,3] dimensions
+     for element_nr in range(len(int_beam_pos)):
+         temp_point = int_beam_pos[element_nr, :]
+         temp_point = np.dot(rot_z_inv, temp_point)
+@@ -158,7 +158,7 @@ def __intermediate_2_ITRS(int_beam_pos: [(float, float, float)], sat_pos_lolah:
+     #       cartesian: x: equator in greenwich-meridian, z = geographic north-pole, y = depending
+     int_beam_pos = np.array(int_beam_pos)
+     original_shape = np.shape(int_beam_pos)
+-    elements = np.product(original_shape[:-1])  # reduce the dimensions to [x,3]
++    elements = np.prod(original_shape[:-1])  # reduce the dimensions to [x,3]
+     int_beam_pos = np.reshape(int_beam_pos, (elements, 3))
+     lon, lat, h = sat_pos_lolah
+     lon = np.deg2rad(lon)
+@@ -183,7 +183,7 @@ def __ITRS_2_intermediate(itrs_beam_pos: [(float, float, float)], sat_pos_lolah:
+     #       cartesian: x: equator in greenwich-meridian, z = geographic north-pole, y = depending
+     itrs_beam_pos = np.array(itrs_beam_pos)
+     original_shape = np.shape(itrs_beam_pos)
+-    elements = int(np.product(original_shape[:-1]))  # reduce the dimensions to [x,3]
++    elements = int(np.prod(original_shape[:-1]))  # reduce the dimensions to [x,3]
+     itrs_beam_pos = np.reshape(itrs_beam_pos, (elements, 3))
+     lon, lat, h = sat_pos_lolah
+     lon = np.deg2rad(lon)

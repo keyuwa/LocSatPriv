@@ -1,0 +1,27 @@
+{
+  "repeats": 10,
+  "users": 100,
+  "seed": 20261117,
+  "epsilon": 0.2,
+  "fixed_total_budget": false,
+  "output": "experiments/location_privacy/record-orbit-results",
+  "record_orbit": true,
+  "counts": [
+    1,
+    4,
+    16,
+    64
+  ],
+  "epoch_utc": "2022-02-14T12:00:00Z",
+  "grid_center_lat_lon": [
+    50.9,
+    6.95
+  ],
+  "input_sha256": {
+    "iridium_TLE_2022_02_14.tle": "78a3891386df428a113f326b7156e9ff5e04fa96cde9c474ba18fa1f56c84c34",
+    "beamModel_iridium_noisy.npy": "bf5db8515727f437d80321c8d7a429d21a57fe2ed18be61969e1d141f5087082"
+  },
+  "scheduler": "first common single beam with up to 10 s waiting",
+  "satellites": 75,
+  "beams_per_satellite": 48
+}

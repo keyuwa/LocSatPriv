@@ -42,3 +42,7 @@ python joint_experiment.py --record-orbit --paired --output paired-orbit-results
 - `*-results/` 和根目录的 JSON、CSV、图片：已有实验产物，保留用于结果对照。
 
 轨道实验直接读取本项目 `RECORD/beam_model/` 下的数据，无需相邻的 `control_state` 项目。历史星历用于实验复现，不代表当前卫星状态。
+
+## 兼容历史布局
+
+远端原有的 `experiments/location_privacy/` 与 `record-extension/` 保留用于历史复现，其安装和运行方式见 [历史说明](README-legacy.md)。日常实验优先使用本页所列根目录入口。
