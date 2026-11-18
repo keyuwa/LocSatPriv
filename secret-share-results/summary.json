@@ -1,0 +1,104 @@
+{
+  "input_hashes": {
+    "iridium_TLE_2022_02_14.tle": "78a3891386df428a113f326b7156e9ff5e04fa96cde9c474ba18fa1f56c84c34",
+    "beamModel_iridium_noisy.npy": "bf5db8515727f437d80321c8d7a429d21a57fe2ed18be61969e1d141f5087082"
+  },
+  "results": [
+    {
+      "users": 1,
+      "mode": "individual",
+      "delivery_rate": 1.0,
+      "mean_wait_s": 0.0,
+      "downlink_bytes_per_request": 256.0,
+      "uplink_bytes_per_request": 64.0
+    },
+    {
+      "users": 1,
+      "mode": "plain_batch",
+      "delivery_rate": 1.0,
+      "mean_wait_s": 0.0,
+      "downlink_bytes_per_request": 256.0,
+      "uplink_bytes_per_request": 64.0
+    },
+    {
+      "users": 1,
+      "mode": "shared_batch",
+      "delivery_rate": 1.0,
+      "mean_wait_s": 0.0,
+      "downlink_bytes_per_request": 256.0,
+      "uplink_bytes_per_request": 128.0
+    },
+    {
+      "users": 2,
+      "mode": "individual",
+      "delivery_rate": 1.0,
+      "mean_wait_s": 0.0,
+      "downlink_bytes_per_request": 256.0,
+      "uplink_bytes_per_request": 64.0
+    },
+    {
+      "users": 2,
+      "mode": "plain_batch",
+      "delivery_rate": 1.0,
+      "mean_wait_s": 0.5,
+      "downlink_bytes_per_request": 284.0,
+      "uplink_bytes_per_request": 64.0
+    },
+    {
+      "users": 2,
+      "mode": "shared_batch",
+      "delivery_rate": 1.0,
+      "mean_wait_s": 0.5,
+      "downlink_bytes_per_request": 284.0,
+      "uplink_bytes_per_request": 128.0
+    },
+    {
+      "users": 4,
+      "mode": "individual",
+      "delivery_rate": 1.0,
+      "mean_wait_s": 0.0,
+      "downlink_bytes_per_request": 256.0,
+      "uplink_bytes_per_request": 64.0
+    },
+    {
+      "users": 4,
+      "mode": "plain_batch",
+      "delivery_rate": 1.0,
+      "mean_wait_s": 1.5,
+      "downlink_bytes_per_request": 309.3333333333333,
+      "uplink_bytes_per_request": 64.0
+    },
+    {
+      "users": 4,
+      "mode": "shared_batch",
+      "delivery_rate": 1.0,
+      "mean_wait_s": 1.5,
+      "downlink_bytes_per_request": 309.3333333333333,
+      "uplink_bytes_per_request": 128.0
+    },
+    {
+      "users": 8,
+      "mode": "individual",
+      "delivery_rate": 1.0,
+      "mean_wait_s": 0.0,
+      "downlink_bytes_per_request": 256.0,
+      "uplink_bytes_per_request": 64.0
+    },
+    {
+      "users": 8,
+      "mode": "plain_batch",
+      "delivery_rate": 1.0,
+      "mean_wait_s": 3.5,
+      "downlink_bytes_per_request": 325.3333333333333,
+      "uplink_bytes_per_request": 64.0
+    },
+    {
+      "users": 8,
+      "mode": "shared_batch",
+      "delivery_rate": 1.0,
+      "mean_wait_s": 3.5,
+      "downlink_bytes_per_request": 325.3333333333333,
+      "uplink_bytes_per_request": 128.0
+    }
+  ]
+}

@@ -100,3 +100,52 @@ def record_schedule(counts, region_side=10):
         "beams_per_satellite": len(beam_names),
     }
     return (points, tokens, delivered, waits, copies), metadata
+
+
+def historical_footprints(points, hour):
+    """Return epoch metadata and a per-second iterator over historical beam footprints."""
+    if str(RECORD) not in sys.path:
+        sys.path.insert(0, str(RECORD))
+    from TLE_calculator import TLE_calculator
+    from beam_model.Generic_rec_processed_beam_model import GenericRecordedProcessedModel
+    from beam_model import beamModel_coordinate_transformations as transform
+
+    tle = RECORD / "beam_model/iridium_TLE_2022_02_14.tle"
+    beam_file = RECORD / "beam_model/beamModel_iridium_noisy.npy"
+    propagator = TLE_calculator(str(tle))
+    model = GenericRecordedProcessedModel()
+    model.load_processed_model(str(beam_file))
+    polygons = [tuple(PolygonPath(p.get_points_line()) for p in group)
+                for group in model.beam_polygon_dict.values()]
+    beam_names = list(model.beam_polygon_dict)
+    receivers = np.array([[-18, -8], [18, 10]])
+    local_crs = CRS.from_proj4("+proj=aeqd +lat_0=50.9 +lon_0=6.95 +datum=WGS84")
+    to_ecef = Transformer.from_crs(local_crs, "EPSG:4978", always_xy=True)
+    local = np.vstack((points, receivers)) * 1000
+    ground = np.array(to_ecef.transform(*local.T, np.zeros(len(local)))).T / 1000
+    jd, fraction = propagator.utc_time_to_jDay(2022, 2, 14, hour, 0, 0)
+
+    def footprints(elapsed):
+        instant = fraction + elapsed / 86400
+        errors, positions, velocities = propagator.satrec.sgp4(
+            np.array([jd]), np.array([instant]))
+        positions, velocities = propagator.TEME_2_ITRS(
+            jd, instant, positions[:, 0], velocities[:, 0])
+        for satellite, (pos, vel) in enumerate(zip(positions, velocities)):
+            if errors[satellite, 0] or np.linalg.norm(pos - ground[0]) > 3200:
+                continue
+            los = pos - ground
+            horizon = np.sum(los * ground, axis=1) > 0
+            lonlat = transform.ITRS_2_LonLatHeight([pos])[0]
+            intermediate = transform.__ITRS_2_intermediate(-los, lonlat)
+            x, y, z = transform.__intermediate_2_local(intermediate, pos, vel).T
+            theta = np.rad2deg(np.arctan2(np.hypot(x, y), z))
+            phi = np.arctan2(y, x)
+            flat = np.column_stack((theta * np.sin(phi), theta * np.cos(phi)))
+            for beam, shapes in enumerate(polygons):
+                covered = np.logical_or.reduce([shape.contains_points(flat) for shape in shapes]) & horizon
+                if covered[:-2].any():
+                    token = 1 + (elapsed * len(positions) + satellite) * len(beam_names) + beam
+                    yield covered[:-2], token if covered[-2:].any() else 0
+
+    return footprints, {p.name: hashlib.sha256(p.read_bytes()).hexdigest() for p in (tle, beam_file)}

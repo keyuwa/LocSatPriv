@@ -1,0 +1,1184 @@
+{
+  "date": "2022-02-14",
+  "hours_utc": [
+    6,
+    12,
+    18
+  ],
+  "input_sha256": {
+    "iridium_TLE_2022_02_14.tle": "78a3891386df428a113f326b7156e9ff5e04fa96cde9c474ba18fa1f56c84c34",
+    "beamModel_iridium_noisy.npy": "bf5db8515727f437d80321c8d7a429d21a57fe2ed18be61969e1d141f5087082"
+  },
+  "results": [
+    {
+      "hour": 6,
+      "margin_km": 0,
+      "epsilon_per_label_per_km": null,
+      "mode": "fixed_region",
+      "messages": 1,
+      "epsilon_bound_per_km": null,
+      "neighbor_metrics": {
+        "within": {
+          "pairs": 360,
+          "max_tv": 0.0,
+          "max_log_ratio": 0.0
+        },
+        "across": {
+          "pairs": 10,
+          "max_tv": 0.0,
+          "max_log_ratio": 0.0
+        }
+      },
+      "centroid_within_1km": 0.02,
+      "mean_error_km": 5.859808173157973,
+      "mean_credible95_km2": 190.0,
+      "delivery_rate": 1.0,
+      "p95_delivered_wait_s": 0.0,
+      "transmissions_per_message": 1.0
+    },
+    {
+      "hour": 6,
+      "margin_km": 0,
+      "epsilon_per_label_per_km": null,
+      "mode": "fixed_region",
+      "messages": 4,
+      "epsilon_bound_per_km": null,
+      "neighbor_metrics": {
+        "within": {
+          "pairs": 360,
+          "max_tv": 0.0,
+          "max_log_ratio": 0.0
+        },
+        "across": {
+          "pairs": 10,
+          "max_tv": 1.0,
+          "max_log_ratio": null
+        }
+      },
+      "centroid_within_1km": 0.05,
+      "mean_error_km": 3.773873312355417,
+      "mean_credible95_km2": 95.0,
+      "delivery_rate": 1.0,
+      "p95_delivered_wait_s": 0.0,
+      "transmissions_per_message": 1.0
+    },
+    {
+      "hour": 6,
+      "margin_km": 0,
+      "epsilon_per_label_per_km": null,
+      "mode": "fixed_region",
+      "messages": 16,
+      "epsilon_bound_per_km": null,
+      "neighbor_metrics": {
+        "within": {
+          "pairs": 360,
+          "max_tv": 0.0,
+          "max_log_ratio": 0.0
+        },
+        "across": {
+          "pairs": 10,
+          "max_tv": 1.0,
+          "max_log_ratio": null
+        }
+      },
+      "centroid_within_1km": 0.05,
+      "mean_error_km": 3.773873312355417,
+      "mean_credible95_km2": 95.0,
+      "delivery_rate": 1.0,
+      "p95_delivered_wait_s": 0.0,
+      "transmissions_per_message": 1.0
+    },
+    {
+      "hour": 6,
+      "margin_km": 0,
+      "epsilon_per_label_per_km": null,
+      "mode": "fixed_region",
+      "messages": 32,
+      "epsilon_bound_per_km": null,
+      "neighbor_metrics": {
+        "within": {
+          "pairs": 360,
+          "max_tv": 0.0,
+          "max_log_ratio": 0.0
+        },
+        "across": {
+          "pairs": 10,
+          "max_tv": 1.0,
+          "max_log_ratio": null
+        }
+      },
+      "centroid_within_1km": 0.05,
+      "mean_error_km": 3.773873312355417,
+      "mean_credible95_km2": 95.0,
+      "delivery_rate": 1.0,
+      "p95_delivered_wait_s": 0.0,
+      "transmissions_per_message": 1.0
+    },
+    {
+      "hour": 6,
+      "margin_km": 0,
+      "epsilon_per_label_per_km": null,
+      "mode": "fixed_region",
+      "messages": 64,
+      "epsilon_bound_per_km": null,
+      "neighbor_metrics": {
+        "within": {
+          "pairs": 360,
+          "max_tv": 0.0,
+          "max_log_ratio": 0.0
+        },
+        "across": {
+          "pairs": 10,
+          "max_tv": 1.0,
+          "max_log_ratio": null
+        }
+      },
+      "centroid_within_1km": 0.05,
+      "mean_error_km": 3.773873312355417,
+      "mean_credible95_km2": 95.0,
+      "delivery_rate": 1.0,
+      "p95_delivered_wait_s": 0.0,
+      "transmissions_per_message": 1.0
+    },
+    {
+      "hour": 6,
+      "margin_km": 0,
+      "epsilon_per_label_per_km": 0.3,
+      "mode": "random_reuse",
+      "messages": 1,
+      "epsilon_bound_per_km": 0.3,
+      "neighbor_metrics": {
+        "within": {
+          "pairs": 360,
+          "max_tv": 1.6653345369377348e-16,
+          "max_log_ratio": 3.3306690738754696e-16
+        },
+        "across": {
+          "pairs": 10,
+          "max_tv": 0.0,
+          "max_log_ratio": 0.0
+        }
+      },
+      "centroid_within_1km": 0.02,
+      "mean_error_km": 5.859808173157973,
+      "mean_credible95_km2": 190.0,
+      "delivery_rate": 1.0,
+      "p95_delivered_wait_s": 0.0,
+      "transmissions_per_message": 1.0
+    },
+    {
+      "hour": 6,
+      "margin_km": 0,
+      "epsilon_per_label_per_km": 0.3,
+      "mode": "random_reuse",
+      "messages": 4,
+      "epsilon_bound_per_km": 0.3,
+      "neighbor_metrics": {
+        "within": {
+          "pairs": 360,
+          "max_tv": 0.07281369113588257,
+          "max_log_ratio": 0.2147891476871462
+        },
+        "across": {
+          "pairs": 10,
+          "max_tv": 0.07448588220944541,
+          "max_log_ratio": 0.1492481909287383
+        }
+      },
+      "centroid_within_1km": 0.026,
+      "mean_error_km": 5.286367068686482,
+      "mean_credible95_km2": 174.0,
+      "delivery_rate": 0.98675,
+      "p95_delivered_wait_s": 0.0,
+      "transmissions_per_message": 1.0
+    },
+    {
+      "hour": 6,
+      "margin_km": 0,
+      "epsilon_per_label_per_km": 0.3,
+      "mode": "random_reuse",
+      "messages": 16,
+      "epsilon_bound_per_km": 0.3,
+      "neighbor_metrics": {
+        "within": {
+          "pairs": 360,
+          "max_tv": 0.07281369113588257,
+          "max_log_ratio": 0.2147891476871462
+        },
+        "across": {
+          "pairs": 10,
+          "max_tv": 0.07448588220944541,
+          "max_log_ratio": 0.1492481909287383
+        }
+      },
+      "centroid_within_1km": 0.026,
+      "mean_error_km": 5.286367068686482,
+      "mean_credible95_km2": 174.0,
+      "delivery_rate": 0.996375,
+      "p95_delivered_wait_s": 0.0,
+      "transmissions_per_message": 1.0
+    },
+    {
+      "hour": 6,
+      "margin_km": 0,
+      "epsilon_per_label_per_km": 0.3,
+      "mode": "random_reuse",
+      "messages": 32,
+      "epsilon_bound_per_km": 0.3,
+      "neighbor_metrics": {
+        "within": {
+          "pairs": 360,
+          "max_tv": 0.07281369113588257,
+          "max_log_ratio": 0.2147891476871462
+        },
+        "across": {
+          "pairs": 10,
+          "max_tv": 0.07448588220944541,
+          "max_log_ratio": 0.1492481909287383
+        }
+      },
+      "centroid_within_1km": 0.026,
+      "mean_error_km": 5.286367068686482,
+      "mean_credible95_km2": 174.0,
+      "delivery_rate": 0.9939375,
+      "p95_delivered_wait_s": 0.0,
+      "transmissions_per_message": 1.0
+    },
+    {
+      "hour": 6,
+      "margin_km": 0,
+      "epsilon_per_label_per_km": 0.3,
+      "mode": "random_reuse",
+      "messages": 64,
+      "epsilon_bound_per_km": 0.3,
+      "neighbor_metrics": {
+        "within": {
+          "pairs": 360,
+          "max_tv": 0.07281369113588257,
+          "max_log_ratio": 0.2147891476871462
+        },
+        "across": {
+          "pairs": 10,
+          "max_tv": 0.07448588220944541,
+          "max_log_ratio": 0.1492481909287383
+        }
+      },
+      "centroid_within_1km": 0.026,
+      "mean_error_km": 5.286367068686482,
+      "mean_credible95_km2": 174.0,
+      "delivery_rate": 0.99696875,
+      "p95_delivered_wait_s": 0.0,
+      "transmissions_per_message": 1.0
+    },
+    {
+      "hour": 6,
+      "margin_km": 0,
+      "epsilon_per_label_per_km": 0.3,
+      "mode": "random_refresh",
+      "messages": 1,
+      "epsilon_bound_per_km": 0.3,
+      "neighbor_metrics": {
+        "within": {
+          "pairs": 360,
+          "max_tv": 1.6653345369377348e-16,
+          "max_log_ratio": 3.3306690738754696e-16
+        },
+        "across": {
+          "pairs": 10,
+          "max_tv": 0.0,
+          "max_log_ratio": 0.0
+        }
+      },
+      "centroid_within_1km": 0.02,
+      "mean_error_km": 5.859808173157973,
+      "mean_credible95_km2": 190.0,
+      "delivery_rate": 1.0,
+      "p95_delivered_wait_s": 0.0,
+      "transmissions_per_message": 1.0
+    },
+    {
+      "hour": 6,
+      "margin_km": 0,
+      "epsilon_per_label_per_km": 0.3,
+      "mode": "random_refresh",
+      "messages": 4,
+      "epsilon_bound_per_km": 1.2,
+      "neighbor_metrics": {
+        "within": {
+          "pairs": 360,
+          "max_tv": null,
+          "max_log_ratio": 0.2147891476871462
+        },
+        "across": {
+          "pairs": 10,
+          "max_tv": null,
+          "max_log_ratio": 0.1492481909287383
+        }
+      },
+      "centroid_within_1km": 0.027,
+      "mean_error_km": 5.243783683504946,
+      "mean_credible95_km2": 174.0,
+      "delivery_rate": 0.987,
+      "p95_delivered_wait_s": 0.0,
+      "transmissions_per_message": 1.0
+    },
+    {
+      "hour": 6,
+      "margin_km": 0,
+      "epsilon_per_label_per_km": 0.3,
+      "mode": "random_refresh",
+      "messages": 16,
+      "epsilon_bound_per_km": 4.8,
+      "neighbor_metrics": {
+        "within": {
+          "pairs": 360,
+          "max_tv": null,
+          "max_log_ratio": 0.4295782953742924
+        },
+        "across": {
+          "pairs": 10,
+          "max_tv": null,
+          "max_log_ratio": 0.2984963818574766
+        }
+      },
+      "centroid_within_1km": 0.027,
+      "mean_error_km": 4.763916174499929,
+      "mean_credible95_km2": 156.696,
+      "delivery_rate": 0.9966875,
+      "p95_delivered_wait_s": 0.0,
+      "transmissions_per_message": 1.0
+    },
+    {
+      "hour": 6,
+      "margin_km": 0,
+      "epsilon_per_label_per_km": 0.3,
+      "mode": "random_refresh",
+      "messages": 32,
+      "epsilon_bound_per_km": 9.6,
+      "neighbor_metrics": {
+        "within": {
+          "pairs": 360,
+          "max_tv": null,
+          "max_log_ratio": 1.073945738435731
+        },
+        "across": {
+          "pairs": 10,
+          "max_tv": null,
+          "max_log_ratio": 0.7462409546436916
+        }
+      },
+      "centroid_within_1km": 0.051,
+      "mean_error_km": 4.175147197466924,
+      "mean_credible95_km2": 124.88,
+      "delivery_rate": 0.9941875,
+      "p95_delivered_wait_s": 0.0,
+      "transmissions_per_message": 1.0
+    },
+    {
+      "hour": 6,
+      "margin_km": 0,
+      "epsilon_per_label_per_km": 0.3,
+      "mode": "random_refresh",
+      "messages": 64,
+      "epsilon_bound_per_km": 19.2,
+      "neighbor_metrics": {
+        "within": {
+          "pairs": 360,
+          "max_tv": null,
+          "max_log_ratio": 1.073945738435731
+        },
+        "across": {
+          "pairs": 10,
+          "max_tv": null,
+          "max_log_ratio": 0.7462409546436916
+        }
+      },
+      "centroid_within_1km": 0.051,
+      "mean_error_km": 4.175147197466923,
+      "mean_credible95_km2": 124.88,
+      "delivery_rate": 0.99709375,
+      "p95_delivered_wait_s": 0.0,
+      "transmissions_per_message": 1.0
+    },
+    {
+      "hour": 12,
+      "margin_km": 0,
+      "epsilon_per_label_per_km": null,
+      "mode": "fixed_region",
+      "messages": 1,
+      "epsilon_bound_per_km": null,
+      "neighbor_metrics": {
+        "within": {
+          "pairs": 360,
+          "max_tv": 0.0,
+          "max_log_ratio": 0.0
+        },
+        "across": {
+          "pairs": 10,
+          "max_tv": 0.0,
+          "max_log_ratio": 0.0
+        }
+      },
+      "centroid_within_1km": 0.02,
+      "mean_error_km": 5.859808173157973,
+      "mean_credible95_km2": 190.0,
+      "delivery_rate": 1.0,
+      "p95_delivered_wait_s": 0.0,
+      "transmissions_per_message": 1.0
+    },
+    {
+      "hour": 12,
+      "margin_km": 0,
+      "epsilon_per_label_per_km": null,
+      "mode": "fixed_region",
+      "messages": 4,
+      "epsilon_bound_per_km": null,
+      "neighbor_metrics": {
+        "within": {
+          "pairs": 360,
+          "max_tv": 0.0,
+          "max_log_ratio": 0.0
+        },
+        "across": {
+          "pairs": 10,
+          "max_tv": 0.0,
+          "max_log_ratio": 0.0
+        }
+      },
+      "centroid_within_1km": 0.02,
+      "mean_error_km": 5.859808173157973,
+      "mean_credible95_km2": 190.0,
+      "delivery_rate": 1.0,
+      "p95_delivered_wait_s": 0.0,
+      "transmissions_per_message": 1.0
+    },
+    {
+      "hour": 12,
+      "margin_km": 0,
+      "epsilon_per_label_per_km": null,
+      "mode": "fixed_region",
+      "messages": 16,
+      "epsilon_bound_per_km": null,
+      "neighbor_metrics": {
+        "within": {
+          "pairs": 360,
+          "max_tv": 0.0,
+          "max_log_ratio": 0.0
+        },
+        "across": {
+          "pairs": 10,
+          "max_tv": 0.0,
+          "max_log_ratio": 0.0
+        }
+      },
+      "centroid_within_1km": 0.02,
+      "mean_error_km": 5.859808173157973,
+      "mean_credible95_km2": 190.0,
+      "delivery_rate": 1.0,
+      "p95_delivered_wait_s": 0.0,
+      "transmissions_per_message": 1.0
+    },
+    {
+      "hour": 12,
+      "margin_km": 0,
+      "epsilon_per_label_per_km": null,
+      "mode": "fixed_region",
+      "messages": 32,
+      "epsilon_bound_per_km": null,
+      "neighbor_metrics": {
+        "within": {
+          "pairs": 360,
+          "max_tv": 0.0,
+          "max_log_ratio": 0.0
+        },
+        "across": {
+          "pairs": 10,
+          "max_tv": 1.0,
+          "max_log_ratio": null
+        }
+      },
+      "centroid_within_1km": 0.05,
+      "mean_error_km": 3.773873312355417,
+      "mean_credible95_km2": 95.0,
+      "delivery_rate": 1.0,
+      "p95_delivered_wait_s": 0.0,
+      "transmissions_per_message": 1.0
+    },
+    {
+      "hour": 12,
+      "margin_km": 0,
+      "epsilon_per_label_per_km": null,
+      "mode": "fixed_region",
+      "messages": 64,
+      "epsilon_bound_per_km": null,
+      "neighbor_metrics": {
+        "within": {
+          "pairs": 360,
+          "max_tv": 0.0,
+          "max_log_ratio": 0.0
+        },
+        "across": {
+          "pairs": 10,
+          "max_tv": 1.0,
+          "max_log_ratio": null
+        }
+      },
+      "centroid_within_1km": 0.05,
+      "mean_error_km": 3.773873312355417,
+      "mean_credible95_km2": 95.0,
+      "delivery_rate": 1.0,
+      "p95_delivered_wait_s": 0.0,
+      "transmissions_per_message": 1.0
+    },
+    {
+      "hour": 12,
+      "margin_km": 0,
+      "epsilon_per_label_per_km": 0.3,
+      "mode": "random_reuse",
+      "messages": 1,
+      "epsilon_bound_per_km": 0.3,
+      "neighbor_metrics": {
+        "within": {
+          "pairs": 360,
+          "max_tv": 1.6653345369377348e-16,
+          "max_log_ratio": 3.3306690738754696e-16
+        },
+        "across": {
+          "pairs": 10,
+          "max_tv": 0.0,
+          "max_log_ratio": 0.0
+        }
+      },
+      "centroid_within_1km": 0.02,
+      "mean_error_km": 5.859808173157973,
+      "mean_credible95_km2": 190.0,
+      "delivery_rate": 1.0,
+      "p95_delivered_wait_s": 0.0,
+      "transmissions_per_message": 1.0
+    },
+    {
+      "hour": 12,
+      "margin_km": 0,
+      "epsilon_per_label_per_km": 0.3,
+      "mode": "random_reuse",
+      "messages": 4,
+      "epsilon_bound_per_km": 0.3,
+      "neighbor_metrics": {
+        "within": {
+          "pairs": 360,
+          "max_tv": 1.6653345369377348e-16,
+          "max_log_ratio": 3.3306690738754696e-16
+        },
+        "across": {
+          "pairs": 10,
+          "max_tv": 0.0,
+          "max_log_ratio": 0.0
+        }
+      },
+      "centroid_within_1km": 0.02,
+      "mean_error_km": 5.859808173157973,
+      "mean_credible95_km2": 190.0,
+      "delivery_rate": 1.0,
+      "p95_delivered_wait_s": 0.0,
+      "transmissions_per_message": 1.0
+    },
+    {
+      "hour": 12,
+      "margin_km": 0,
+      "epsilon_per_label_per_km": 0.3,
+      "mode": "random_reuse",
+      "messages": 16,
+      "epsilon_bound_per_km": 0.3,
+      "neighbor_metrics": {
+        "within": {
+          "pairs": 360,
+          "max_tv": 1.6653345369377348e-16,
+          "max_log_ratio": 3.3306690738754696e-16
+        },
+        "across": {
+          "pairs": 10,
+          "max_tv": 0.0,
+          "max_log_ratio": 0.0
+        }
+      },
+      "centroid_within_1km": 0.02,
+      "mean_error_km": 5.859808173157973,
+      "mean_credible95_km2": 190.0,
+      "delivery_rate": 1.0,
+      "p95_delivered_wait_s": 0.0,
+      "transmissions_per_message": 1.0
+    },
+    {
+      "hour": 12,
+      "margin_km": 0,
+      "epsilon_per_label_per_km": 0.3,
+      "mode": "random_reuse",
+      "messages": 32,
+      "epsilon_bound_per_km": 0.3,
+      "neighbor_metrics": {
+        "within": {
+          "pairs": 360,
+          "max_tv": 0.07281369113588257,
+          "max_log_ratio": 0.2147891476871462
+        },
+        "across": {
+          "pairs": 10,
+          "max_tv": 0.07448588220944541,
+          "max_log_ratio": 0.1492481909287383
+        }
+      },
+      "centroid_within_1km": 0.026,
+      "mean_error_km": 5.286367068686482,
+      "mean_credible95_km2": 174.0,
+      "delivery_rate": 0.998125,
+      "p95_delivered_wait_s": 0.0,
+      "transmissions_per_message": 1.0
+    },
+    {
+      "hour": 12,
+      "margin_km": 0,
+      "epsilon_per_label_per_km": 0.3,
+      "mode": "random_reuse",
+      "messages": 64,
+      "epsilon_bound_per_km": 0.3,
+      "neighbor_metrics": {
+        "within": {
+          "pairs": 360,
+          "max_tv": 0.07281369113588257,
+          "max_log_ratio": 0.2147891476871462
+        },
+        "across": {
+          "pairs": 10,
+          "max_tv": 0.07448588220944541,
+          "max_log_ratio": 0.1492481909287383
+        }
+      },
+      "centroid_within_1km": 0.026,
+      "mean_error_km": 5.286367068686482,
+      "mean_credible95_km2": 174.0,
+      "delivery_rate": 0.99628125,
+      "p95_delivered_wait_s": 0.0,
+      "transmissions_per_message": 1.0
+    },
+    {
+      "hour": 12,
+      "margin_km": 0,
+      "epsilon_per_label_per_km": 0.3,
+      "mode": "random_refresh",
+      "messages": 1,
+      "epsilon_bound_per_km": 0.3,
+      "neighbor_metrics": {
+        "within": {
+          "pairs": 360,
+          "max_tv": 1.6653345369377348e-16,
+          "max_log_ratio": 3.3306690738754696e-16
+        },
+        "across": {
+          "pairs": 10,
+          "max_tv": 0.0,
+          "max_log_ratio": 0.0
+        }
+      },
+      "centroid_within_1km": 0.02,
+      "mean_error_km": 5.859808173157973,
+      "mean_credible95_km2": 190.0,
+      "delivery_rate": 1.0,
+      "p95_delivered_wait_s": 0.0,
+      "transmissions_per_message": 1.0
+    },
+    {
+      "hour": 12,
+      "margin_km": 0,
+      "epsilon_per_label_per_km": 0.3,
+      "mode": "random_refresh",
+      "messages": 4,
+      "epsilon_bound_per_km": 1.2,
+      "neighbor_metrics": {
+        "within": {
+          "pairs": 360,
+          "max_tv": null,
+          "max_log_ratio": 1.3322676295501878e-15
+        },
+        "across": {
+          "pairs": 10,
+          "max_tv": null,
+          "max_log_ratio": 0.0
+        }
+      },
+      "centroid_within_1km": 0.02,
+      "mean_error_km": 5.859808173157973,
+      "mean_credible95_km2": 190.0,
+      "delivery_rate": 1.0,
+      "p95_delivered_wait_s": 0.0,
+      "transmissions_per_message": 1.0
+    },
+    {
+      "hour": 12,
+      "margin_km": 0,
+      "epsilon_per_label_per_km": 0.3,
+      "mode": "random_refresh",
+      "messages": 16,
+      "epsilon_bound_per_km": 4.8,
+      "neighbor_metrics": {
+        "within": {
+          "pairs": 360,
+          "max_tv": null,
+          "max_log_ratio": 5.329070518200751e-15
+        },
+        "across": {
+          "pairs": 10,
+          "max_tv": null,
+          "max_log_ratio": 0.0
+        }
+      },
+      "centroid_within_1km": 0.02,
+      "mean_error_km": 5.859808173157973,
+      "mean_credible95_km2": 190.0,
+      "delivery_rate": 1.0,
+      "p95_delivered_wait_s": 0.0,
+      "transmissions_per_message": 1.0
+    },
+    {
+      "hour": 12,
+      "margin_km": 0,
+      "epsilon_per_label_per_km": 0.3,
+      "mode": "random_refresh",
+      "messages": 32,
+      "epsilon_bound_per_km": 9.6,
+      "neighbor_metrics": {
+        "within": {
+          "pairs": 360,
+          "max_tv": null,
+          "max_log_ratio": 0.2147891476871462
+        },
+        "across": {
+          "pairs": 10,
+          "max_tv": null,
+          "max_log_ratio": 0.1492481909287383
+        }
+      },
+      "centroid_within_1km": 0.028,
+      "mean_error_km": 5.151197706378513,
+      "mean_credible95_km2": 174.0,
+      "delivery_rate": 0.99815625,
+      "p95_delivered_wait_s": 0.0,
+      "transmissions_per_message": 1.0
+    },
+    {
+      "hour": 12,
+      "margin_km": 0,
+      "epsilon_per_label_per_km": 0.3,
+      "mode": "random_refresh",
+      "messages": 64,
+      "epsilon_bound_per_km": 19.2,
+      "neighbor_metrics": {
+        "within": {
+          "pairs": 360,
+          "max_tv": null,
+          "max_log_ratio": 0.6443674430614386
+        },
+        "across": {
+          "pairs": 10,
+          "max_tv": null,
+          "max_log_ratio": 0.44774457278621493
+        }
+      },
+      "centroid_within_1km": 0.049,
+      "mean_error_km": 4.501686486117519,
+      "mean_credible95_km2": 143.02,
+      "delivery_rate": 0.996515625,
+      "p95_delivered_wait_s": 0.0,
+      "transmissions_per_message": 1.0
+    },
+    {
+      "hour": 18,
+      "margin_km": 0,
+      "epsilon_per_label_per_km": null,
+      "mode": "fixed_region",
+      "messages": 1,
+      "epsilon_bound_per_km": null,
+      "neighbor_metrics": {
+        "within": {
+          "pairs": 360,
+          "max_tv": 0.0,
+          "max_log_ratio": 0.0
+        },
+        "across": {
+          "pairs": 10,
+          "max_tv": 0.0,
+          "max_log_ratio": 0.0
+        }
+      },
+      "centroid_within_1km": 0.02,
+      "mean_error_km": 5.859808173157973,
+      "mean_credible95_km2": 190.0,
+      "delivery_rate": 1.0,
+      "p95_delivered_wait_s": 0.0,
+      "transmissions_per_message": 1.0
+    },
+    {
+      "hour": 18,
+      "margin_km": 0,
+      "epsilon_per_label_per_km": null,
+      "mode": "fixed_region",
+      "messages": 4,
+      "epsilon_bound_per_km": null,
+      "neighbor_metrics": {
+        "within": {
+          "pairs": 360,
+          "max_tv": 0.0,
+          "max_log_ratio": 0.0
+        },
+        "across": {
+          "pairs": 10,
+          "max_tv": 0.0,
+          "max_log_ratio": 0.0
+        }
+      },
+      "centroid_within_1km": 0.02,
+      "mean_error_km": 5.859808173157973,
+      "mean_credible95_km2": 190.0,
+      "delivery_rate": 1.0,
+      "p95_delivered_wait_s": 0.0,
+      "transmissions_per_message": 1.0
+    },
+    {
+      "hour": 18,
+      "margin_km": 0,
+      "epsilon_per_label_per_km": null,
+      "mode": "fixed_region",
+      "messages": 16,
+      "epsilon_bound_per_km": null,
+      "neighbor_metrics": {
+        "within": {
+          "pairs": 360,
+          "max_tv": 0.0,
+          "max_log_ratio": 0.0
+        },
+        "across": {
+          "pairs": 10,
+          "max_tv": 1.0,
+          "max_log_ratio": null
+        }
+      },
+      "centroid_within_1km": 0.05,
+      "mean_error_km": 3.773873312355417,
+      "mean_credible95_km2": 95.0,
+      "delivery_rate": 1.0,
+      "p95_delivered_wait_s": 0.0,
+      "transmissions_per_message": 1.0
+    },
+    {
+      "hour": 18,
+      "margin_km": 0,
+      "epsilon_per_label_per_km": null,
+      "mode": "fixed_region",
+      "messages": 32,
+      "epsilon_bound_per_km": null,
+      "neighbor_metrics": {
+        "within": {
+          "pairs": 360,
+          "max_tv": 0.0,
+          "max_log_ratio": 0.0
+        },
+        "across": {
+          "pairs": 10,
+          "max_tv": 1.0,
+          "max_log_ratio": null
+        }
+      },
+      "centroid_within_1km": 0.05,
+      "mean_error_km": 3.773873312355417,
+      "mean_credible95_km2": 95.0,
+      "delivery_rate": 1.0,
+      "p95_delivered_wait_s": 0.0,
+      "transmissions_per_message": 1.0
+    },
+    {
+      "hour": 18,
+      "margin_km": 0,
+      "epsilon_per_label_per_km": null,
+      "mode": "fixed_region",
+      "messages": 64,
+      "epsilon_bound_per_km": null,
+      "neighbor_metrics": {
+        "within": {
+          "pairs": 360,
+          "max_tv": 0.0,
+          "max_log_ratio": 0.0
+        },
+        "across": {
+          "pairs": 10,
+          "max_tv": 1.0,
+          "max_log_ratio": null
+        }
+      },
+      "centroid_within_1km": 0.05,
+      "mean_error_km": 3.773873312355417,
+      "mean_credible95_km2": 95.0,
+      "delivery_rate": 1.0,
+      "p95_delivered_wait_s": 0.0,
+      "transmissions_per_message": 1.0
+    },
+    {
+      "hour": 18,
+      "margin_km": 0,
+      "epsilon_per_label_per_km": 0.3,
+      "mode": "random_reuse",
+      "messages": 1,
+      "epsilon_bound_per_km": 0.3,
+      "neighbor_metrics": {
+        "within": {
+          "pairs": 360,
+          "max_tv": 1.6653345369377348e-16,
+          "max_log_ratio": 3.3306690738754696e-16
+        },
+        "across": {
+          "pairs": 10,
+          "max_tv": 0.0,
+          "max_log_ratio": 0.0
+        }
+      },
+      "centroid_within_1km": 0.02,
+      "mean_error_km": 5.859808173157973,
+      "mean_credible95_km2": 190.0,
+      "delivery_rate": 1.0,
+      "p95_delivered_wait_s": 0.0,
+      "transmissions_per_message": 1.0
+    },
+    {
+      "hour": 18,
+      "margin_km": 0,
+      "epsilon_per_label_per_km": 0.3,
+      "mode": "random_reuse",
+      "messages": 4,
+      "epsilon_bound_per_km": 0.3,
+      "neighbor_metrics": {
+        "within": {
+          "pairs": 360,
+          "max_tv": 1.6653345369377348e-16,
+          "max_log_ratio": 3.3306690738754696e-16
+        },
+        "across": {
+          "pairs": 10,
+          "max_tv": 0.0,
+          "max_log_ratio": 0.0
+        }
+      },
+      "centroid_within_1km": 0.02,
+      "mean_error_km": 5.859808173157973,
+      "mean_credible95_km2": 190.0,
+      "delivery_rate": 1.0,
+      "p95_delivered_wait_s": 0.0,
+      "transmissions_per_message": 1.0
+    },
+    {
+      "hour": 18,
+      "margin_km": 0,
+      "epsilon_per_label_per_km": 0.3,
+      "mode": "random_reuse",
+      "messages": 16,
+      "epsilon_bound_per_km": 0.3,
+      "neighbor_metrics": {
+        "within": {
+          "pairs": 360,
+          "max_tv": 0.07281369113588257,
+          "max_log_ratio": 0.2147891476871462
+        },
+        "across": {
+          "pairs": 10,
+          "max_tv": 0.07448588220944541,
+          "max_log_ratio": 0.1492481909287383
+        }
+      },
+      "centroid_within_1km": 0.026,
+      "mean_error_km": 5.286367068686482,
+      "mean_credible95_km2": 174.0,
+      "delivery_rate": 0.9871875,
+      "p95_delivered_wait_s": 0.0,
+      "transmissions_per_message": 1.0
+    },
+    {
+      "hour": 18,
+      "margin_km": 0,
+      "epsilon_per_label_per_km": 0.3,
+      "mode": "random_reuse",
+      "messages": 32,
+      "epsilon_bound_per_km": 0.3,
+      "neighbor_metrics": {
+        "within": {
+          "pairs": 360,
+          "max_tv": 0.07281369113588257,
+          "max_log_ratio": 0.2147891476871462
+        },
+        "across": {
+          "pairs": 10,
+          "max_tv": 0.07448588220944541,
+          "max_log_ratio": 0.1492481909287383
+        }
+      },
+      "centroid_within_1km": 0.026,
+      "mean_error_km": 5.286367068686482,
+      "mean_credible95_km2": 174.0,
+      "delivery_rate": 0.99303125,
+      "p95_delivered_wait_s": 0.0,
+      "transmissions_per_message": 1.0
+    },
+    {
+      "hour": 18,
+      "margin_km": 0,
+      "epsilon_per_label_per_km": 0.3,
+      "mode": "random_reuse",
+      "messages": 64,
+      "epsilon_bound_per_km": 0.3,
+      "neighbor_metrics": {
+        "within": {
+          "pairs": 360,
+          "max_tv": 0.07281369113588257,
+          "max_log_ratio": 0.2147891476871462
+        },
+        "across": {
+          "pairs": 10,
+          "max_tv": 0.07448588220944541,
+          "max_log_ratio": 0.1492481909287383
+        }
+      },
+      "centroid_within_1km": 0.026,
+      "mean_error_km": 5.286367068686482,
+      "mean_credible95_km2": 174.0,
+      "delivery_rate": 0.996515625,
+      "p95_delivered_wait_s": 0.0,
+      "transmissions_per_message": 1.0
+    },
+    {
+      "hour": 18,
+      "margin_km": 0,
+      "epsilon_per_label_per_km": 0.3,
+      "mode": "random_refresh",
+      "messages": 1,
+      "epsilon_bound_per_km": 0.3,
+      "neighbor_metrics": {
+        "within": {
+          "pairs": 360,
+          "max_tv": 1.6653345369377348e-16,
+          "max_log_ratio": 3.3306690738754696e-16
+        },
+        "across": {
+          "pairs": 10,
+          "max_tv": 0.0,
+          "max_log_ratio": 0.0
+        }
+      },
+      "centroid_within_1km": 0.02,
+      "mean_error_km": 5.859808173157973,
+      "mean_credible95_km2": 190.0,
+      "delivery_rate": 1.0,
+      "p95_delivered_wait_s": 0.0,
+      "transmissions_per_message": 1.0
+    },
+    {
+      "hour": 18,
+      "margin_km": 0,
+      "epsilon_per_label_per_km": 0.3,
+      "mode": "random_refresh",
+      "messages": 4,
+      "epsilon_bound_per_km": 1.2,
+      "neighbor_metrics": {
+        "within": {
+          "pairs": 360,
+          "max_tv": null,
+          "max_log_ratio": 1.3322676295501878e-15
+        },
+        "across": {
+          "pairs": 10,
+          "max_tv": null,
+          "max_log_ratio": 0.0
+        }
+      },
+      "centroid_within_1km": 0.02,
+      "mean_error_km": 5.859808173157973,
+      "mean_credible95_km2": 190.0,
+      "delivery_rate": 1.0,
+      "p95_delivered_wait_s": 0.0,
+      "transmissions_per_message": 1.0
+    },
+    {
+      "hour": 18,
+      "margin_km": 0,
+      "epsilon_per_label_per_km": 0.3,
+      "mode": "random_refresh",
+      "messages": 16,
+      "epsilon_bound_per_km": 4.8,
+      "neighbor_metrics": {
+        "within": {
+          "pairs": 360,
+          "max_tv": null,
+          "max_log_ratio": 0.4295782953742924
+        },
+        "across": {
+          "pairs": 10,
+          "max_tv": null,
+          "max_log_ratio": 0.2984963818574766
+        }
+      },
+      "centroid_within_1km": 0.026,
+      "mean_error_km": 4.803283619129988,
+      "mean_credible95_km2": 156.696,
+      "delivery_rate": 0.9883125,
+      "p95_delivered_wait_s": 0.0,
+      "transmissions_per_message": 1.0
+    },
+    {
+      "hour": 18,
+      "margin_km": 0,
+      "epsilon_per_label_per_km": 0.3,
+      "mode": "random_refresh",
+      "messages": 32,
+      "epsilon_bound_per_km": 9.6,
+      "neighbor_metrics": {
+        "within": {
+          "pairs": 360,
+          "max_tv": null,
+          "max_log_ratio": 0.6443674430614386
+        },
+        "across": {
+          "pairs": 10,
+          "max_tv": null,
+          "max_log_ratio": 0.44774457278621493
+        }
+      },
+      "centroid_within_1km": 0.041,
+      "mean_error_km": 4.5547728943444765,
+      "mean_credible95_km2": 143.8,
+      "delivery_rate": 0.99325,
+      "p95_delivered_wait_s": 0.0,
+      "transmissions_per_message": 1.0
+    },
+    {
+      "hour": 18,
+      "margin_km": 0,
+      "epsilon_per_label_per_km": 0.3,
+      "mode": "random_refresh",
+      "messages": 64,
+      "epsilon_bound_per_km": 19.2,
+      "neighbor_metrics": {
+        "within": {
+          "pairs": 360,
+          "max_tv": null,
+          "max_log_ratio": 0.6443674430614386
+        },
+        "across": {
+          "pairs": 10,
+          "max_tv": null,
+          "max_log_ratio": 0.44774457278621493
+        }
+      },
+      "centroid_within_1km": 0.041,
+      "mean_error_km": 4.5547728943444765,
+      "mean_credible95_km2": 143.8,
+      "delivery_rate": 0.996625,
+      "p95_delivered_wait_s": 0.0,
+      "transmissions_per_message": 1.0
+    }
+  ]
+}
